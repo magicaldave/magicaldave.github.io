@@ -2,7 +2,7 @@ let responseText;
 const generateBtn = document.querySelector('.generate-btn');
 generateBtn.addEventListener('click', function() {
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", "http://147.182.210.243:3000/generate-text", true);
+    xhr.open("GET", "http://147.182.210.243:3000/", true);
     xhr.onreadystatechange = function() {
 	if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
 	    responseText = xhr.responseText;
