@@ -96,10 +96,15 @@ int main(void)
 		 * In order: checks for valid source of traffic,
 		 * valid request type, and valid endpoint
 		 */
-		authenticated = (extract_hostname(buffer) && !strncmp(buffer, "GET ", 4) && grab_endpoint(buffer + 4));
-		printf("Traffic originating from valid source: %s\n", authenticated ? "True" : "False");
+		authenticated = (extract_hostname(buffer)
+				 && !strncmp(buffer, "GET ", 4)
+				 && grab_endpoint(buffer + 4));
 
-		write_socket(reqcount, client_sockfd, authenticated
+		printf("Traffic originating from valid source: %s\n", authenticated
+		       ? "True"
+		       : "False");
+
+                write_socket(reqcount, client_sockfd, authenticated
 			     ? response
 			     : denial);
         }
