@@ -21,13 +21,12 @@
 		server.sin_addr.s_addr = INADDR_ANY;			\
 	} while (0)
 
-#define WRITE_DATA                                                             \
-  do {                                                                         \
-    reqcount++;                                                                \
-    printf("Connection Received: [%s:%u]\n", inet_ntoa(client.sin_addr),       \
-           ntohs(client.sin_port));                                            \
-    printf("Incoming Request:\n%s\n", buffer);                                 \
-  } while (0);
+#define WRITE_DATA							\
+	do {								\
+		reqcount++;						\
+		printf("Connection Received: [%s:%u]\n", inet_ntoa(client.sin_addr), ntohs(client.sin_port)); \
+		printf("Incoming Request:\n%s\n", buffer);		\
+	} while (0);
 
 /*Declarations*/
 void create_socket(int *sock_num);
