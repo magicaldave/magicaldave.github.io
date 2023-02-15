@@ -4,5 +4,4 @@ function onClick() {
 	    window.addEventListener('deviceorientation', () => {});
 	}
     });
-    }
 }
