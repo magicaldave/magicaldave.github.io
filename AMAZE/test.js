@@ -9,6 +9,6 @@ function onClick() {
             })
             .catch(console.error);
     } else {
-	// handle regular non iOS 13+ devices
+	Console.Log("Non-iOS 13 Device Detected!");
     }
 }
