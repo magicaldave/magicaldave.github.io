@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
+      <script>
+       function onClick() {
+	   console.log("Requesting motion permissions");
+	   DeviceOrientationEvent.requestPermission().then(permissionState => {
+	       if (permissionState === 'granted') {
+		   console.log("permission granted!");
+		   window.addEventListener('deviceorientation', () => {});
+	       }
+	       else {
+		   console.log("Perm function failed");
+	       }
+	   });
+       }
+      </script>
     <div onclick="onClick()" id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -38,18 +52,6 @@
       // way that non-critical warnings and error messages are presented to the
       // user.
       function unityShowBanner(msg, type) {
-	  function onClick() {
-	      console.log("Requesting motion permissions");
-	      DeviceOrientationEvent.requestPermission().then(permissionState => {
-		  if (permissionState === 'granted') {
-		      console.log("permission granted!");
-		      window.addEventListener('deviceorientation', () => {});
-		  }
-		  else {
-		      console.log("Perm function failed");
-		  }
-	      });
-	  }
 
         function updateBannerVisibility() {
           warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
