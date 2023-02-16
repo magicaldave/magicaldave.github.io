@@ -6,7 +6,6 @@
     <title>S3KSHUN-8 PRESENTS | AMAZEBALLS</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="test.js"></script>
   </head>
   <body>
     <div onclick="onClick()" id="unity-container" class="unity-desktop">
@@ -39,6 +38,19 @@
       // way that non-critical warnings and error messages are presented to the
       // user.
       function unityShowBanner(msg, type) {
+	  function onClick() {
+	      console.log("Requesting motion permissions");
+	      DeviceOrientationEvent.requestPermission().then(permissionState => {
+		  if (permissionState === 'granted') {
+		      console.log("permission granted!");
+		      window.addEventListener('deviceorientation', () => {});
+		  }
+		  else {
+		      console.log("Perm function failed");
+		  }
+	      });
+	  }
+
         function updateBannerVisibility() {
           warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
         }
@@ -90,7 +102,7 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
+        unityShowBanner('YOOOONEEEETTYYYYYY DOES NOT MAKE DE RULES HERE');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
