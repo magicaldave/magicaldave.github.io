@@ -14,7 +14,7 @@
 	   DeviceMotionEvent.requestPermission().then(permissionState => {
 	       if (permissionState === 'granted') {
 		   console.log("permission granted!");
-		   window.addEventListener('deviceorientation', () => {});
+		   window.addEventListener('deviceorientation', (event) => {});
 	       }
 	       else {
 		   console.log("Perm function failed");
