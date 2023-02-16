@@ -11,7 +11,7 @@
       <script>
        function onClick() {
 	   console.log("Requesting motion permissions");
-	   DeviceOrientationEvent.requestPermission().then(permissionState => {
+	   DeviceMotionEvent.requestPermission().then(permissionState => {
 	       if (permissionState === 'granted') {
 		   console.log("permission granted!");
 		   window.addEventListener('deviceorientation', () => {});
