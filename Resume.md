@@ -33,9 +33,9 @@
   .resume-list {
       justify-content: center; /* Center content horizontally */  
     text-align: center; /* Align list items to the left */
-    margin-left: 30%; /* Adjust margin for better positioning */
-    margin-right: 25%; /* Adjust margin for better positioning */
-    max-width: 50%;
+    margin-left: 25%; /* Adjust margin for better positioning */
+    margin-right: 20%; /* Adjust margin for better positioning */
+    max-width: 70%;
   }
 
   .resume-list li {
@@ -123,7 +123,7 @@
     <br>
     <li><h4>United States Cellular Coporation: July 2020 - November 2020</h4></li>
     <ul>
-      <li>Retail Wireless Consultant</li>
+      <li>Frontline Customer Phone Support</li>
       <li>Assisted customers with technical and billing related issues on their accounts</li>
       <li>Provided appeasements when appropriate such as bill credits or discounted accessories</li>
       <li>Worked to deliver solutions to all types of customers based on their own needs and interests</li>
