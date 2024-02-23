@@ -66,7 +66,7 @@
 <div class="resume-header">
   <!-- Resume content -->
   <div class="resume-container">
-    <img src="https://raw.githubusercontent.com/magicaldave/magicaldave.github.io/main/images/9af62d6f8d5ed28a9af9140cdc7821b8.jpg?token=GHSAT0AAAAAACOHX3JH6HRS4I4EPFFM7PJSZOYZ7RA" class="resume-image">
+    <img src="./images/9af62d6f8d5ed28a9af9140cdc7821b8.jpg" class="resume-image">
 
     <div class="resume-content">
 
