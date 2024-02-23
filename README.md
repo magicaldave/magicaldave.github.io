@@ -1,7 +1,6 @@
-# Welcome to S3kshun-8.me!
 <h1 align="center">Hiya 👾 I'm Dave Corley!</h1>
 <h3 align="center">When I was little, I wanted to be like John Carmack.</h3>
-[Check out my new tool, Fuzzy-AI](https://darkscrolls.tech/)
+[Check out my new tool, Fuzzy-AI](https://github.com/magicaldave/Fuzzy-Ai/tree/main)
 <br>
 [Step into the OpenMW Zone](./openmw.md)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=magicaldave&label=Profile%20views&color=0e75b6&style=flat" alt="magicaldave" /> </p>
