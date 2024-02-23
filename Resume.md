@@ -64,7 +64,7 @@
 <div class="resume-header">
   <!-- Resume content -->
   <div class="resume-container">
-    <img src="/home/sk3shun-8/Pictures/QR Site Links/armorqr.png" class="resume-image">
+    <img src="./armorqr.png" class="resume-image">
 
     <div class="resume-content">
 
