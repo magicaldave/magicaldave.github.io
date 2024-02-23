@@ -9,9 +9,9 @@
 
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=magicaldave&theme=onedark&column=4&margin-w=15&margin-h=15" alt="magicaldave" /></a> </p>
 
-- 🧠 I’m currently learning **Augmented & Virtual Reality and Game Design @Holberton**
+- 🧠 I’m currently learning **Graphics Programming in C++ and Rust**
 
-- 💪 Ask me about **Self-hosting, UnRAID, Proton, TES3MP**
+- 💪 Ask me about **Self-hosting, UnRAID, Rust, TES3MP**
 
 - 📟 How to reach me **corleycomputerrepair@protonmail.ch**
 
