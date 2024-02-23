@@ -3,7 +3,6 @@
   .resume-header {
     display: flex;
     justify-content: center; /* Center content horizontally */
-    width: 100vw; /* Set width to 100% of the viewport height */
   }
 
   .resume-container {
