@@ -4,3 +4,5 @@ show_downloads: false
 description: Surfing the crest of the technological zeitgeist and totally hanging ten whilst doing so.
 layout: page
 permalink: /openmw
+layout: page
+permalink: /resume
