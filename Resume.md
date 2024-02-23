@@ -152,7 +152,6 @@
         <li>One trimester in Unity developing simple games and learning about core technologies</li>
         <li>Specializing in C# and 3D worldspace simulations</li>
         <li>Despite having a great experience with Holberton's program, I ultimately left because my earlier time at the school ignited a passion in me for Open Source and I found my developmental interests took me far away from building simulations in Unity and struck out on my own</li>
-        <li>Departed 2023</li>
       </ul>
       <br>
     <li><h4>Computer Repair & Network Administration @ Tulsa Technology Center - Riverside Campus: 2015 - 2016</h4></li>
