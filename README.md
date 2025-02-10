@@ -4,7 +4,7 @@
 <br>
 [Step into the OpenMW Zone](./openmw.md)
 <br>
-[Check out my Resume](./Resume.md)
+[Check out my Resume](./Resume.html)
 <br>
 [Try AmazeBalls, a simple WebGL game developed in Unity for mobile.](./AMAZE/BALLS.html)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=magicaldave&label=Profile%20views&color=0e75b6&style=flat" alt="magicaldave" /> </p>
