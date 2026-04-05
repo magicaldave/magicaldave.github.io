@@ -1,0 +1,44 @@
+base_url = "https://s3kshun8.games"
+compile_sass = true
+build_search_index = false
+
+title = "S3kshun8's Lair"
+theme = "tanuki"
+generate_feeds = true
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+mode = "blog"
+
+[extra.about]
+summary = "I'm a sysadmin turned game engine developer with an unfaltering belief in the power of open source software."
+
+[extra.hero]
+title = "I'm Dave. I'm here to entertain you!"
+subtitle = "Surfing the crest of the technological zeitgeist and totally hanging ten whilst doing so."
+
+[[extra.nav]]
+name = "Dispatches"
+url = "/blog/"
+
+[[extra.nav]]
+name = "Lore"
+url = "/about/"
+
+[[extra.nav]]
+name = "Resume"
+url = "https://github.com/magicaldave/Corley-Resume/releases/latest/download/dcresume.pdf"
+
+[[extra.nav]]
+name = "Arcade"
+url = "https://dreamweave-mp.github.io/S3ctors-S3cret-St4sh/"
+
+[[extra.nav]]
+name = "Mother Base"
+url = "https://github.com/DreamWeave-MP"
