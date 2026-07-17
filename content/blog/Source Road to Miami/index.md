@@ -30,4 +30,4 @@ It's a lot more hollow than I thought it would be. But it's a familiar place to 
 
 The days are alternating between getting longer and shorter. But they still pass. And the work keeps growing. And the story . . . Well, I look forward to sharing that next piece with you. But for now . . . Just enjoy the scenery, because it's all that's left.
 
-<img src="img/dayOneCampground.jpg" alt="View of the lake" width="1024" height="1024">
+<img src="dayOneCampground.jpg" alt="View of the lake" width="1024" height="1024">
